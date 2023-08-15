@@ -7,9 +7,14 @@ export default function Main() {
                 <div className="intro">
                     <h1 className="name">Andrej Andrašik</h1>
                     <p className="developer">Frontend Developer</p>
-                    <p className="website"
+                    <a
                     href="https://portfolio-andrey-new.netlify.app/"
-                    >andrejandrasik.website</p>
+                    className="website"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                    andrejandrasik.portfolio
+                    </a>
             <button
                  onClick={() => (window.location = 'mailto:andrasik.andrej@gmail.com')}
                  className="btn"

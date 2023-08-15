@@ -7059,9 +7059,14 @@ function Main() {
                 "Frontend Developer"
             ),
             _react2.default.createElement(
-                "p",
-                { className: "website" },
-                "andrejandrasik.website"
+                "a",
+                {
+                    href: "https://portfolio-andrey-new.netlify.app/",
+                    className: "website",
+                    target: "_blank",
+                    rel: "noopener noreferrer"
+                },
+                "andrejandrasik.portfolio"
             ),
             _react2.default.createElement(
                 "button",
